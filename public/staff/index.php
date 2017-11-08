@@ -3,6 +3,7 @@
     <head>
         <title>UNSW Global Staff</title>
         <meta charset='utf-8'>
+        <link rel="stylesheet" media="all" href="../stylesheets/staff.css">
     </head>
     <body>
         <header>
@@ -15,6 +16,7 @@
                 </li>
             </ul>
         </nav>
+        <div id="content"></div>
         <footer>
             &copy; <?php echo date('Y'); ?> UNSWL Global
         </footer>
