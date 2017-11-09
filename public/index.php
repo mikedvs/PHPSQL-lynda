@@ -5,6 +5,6 @@
         <meta charset='utf-8'>
     </head>
     <body>
-        <h1>UNSW Global Redvelopment Website: coming soon</h1>
+        <h1>UNSW Global Redvelopment Website: coming soons</h1>
     </body>
 </html>
