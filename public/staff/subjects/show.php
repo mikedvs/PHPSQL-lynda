@@ -1,10 +1,11 @@
-<?php require_once('../../private/initialize.php'); ?>
+<?php require_once('../../../private/initialize.php'); ?>
 
-<?php $page_title = "Staff Area Page"; ?>
+<?php $id = $_GET['id'];?>
+<?php $page_title = "Show subjects" . $id; ?>
 <?php include(SHARED_PATH .'staff_header.php'); ?>
 <div id="content">
     <div id="main-menu">
-        <h2>Main menuz</h2>
+        <h2>Main menu - Page <?php echo $id; ?></h2>
         <ul>
             <li><a href="<?php echo url_for('staff/subjects/index.php'); ?>">Subjects</a></li>
         </ul>
