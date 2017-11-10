@@ -8,7 +8,8 @@
 <?php include(SHARED_PATH .'staff_header.php'); ?>
 <div id="content">
     <div id="main-menu">
-        <h2>Main menu - Page <?php echo $id; ?></h2>
+        <a href="<?php echo url_for('staff/pages/index.php'); ?>" class="back-link">&laquo; Back to list</a>
+        <h2>Main menu - Page <?php echo h($id); ?></h2>
         <ul>
             <li><a href="<?php echo url_for('staff/subjects/index.php'); ?>">Subjects</a></li>
         </ul>
