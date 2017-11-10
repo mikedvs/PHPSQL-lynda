@@ -44,4 +44,5 @@
         </table>
     </div>
 </div>
-<?php include('../../../private/shared/staff_footer.php'); ?>
+<?php echo SHARED_PATH; ?>
+<?php include( SHARED_PATH . 'staff_footer.php'); ?>
