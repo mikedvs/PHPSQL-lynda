@@ -22,8 +22,8 @@ if($test == '404') {
 
   <div class="subject new">
     <h1>Create Subject</h1>
-
-    <form action="" method="post">
+      
+    <form action="<?php echo url_for('/staff/subjects/create.php'); ?>" method="post"><!-- Form start -->
       <dl>
         <dt>Menu Name</dt>
         <dd><input type="text" name="menu_name" value="" /></dd>
@@ -33,6 +33,12 @@ if($test == '404') {
         <dd>
           <select name="position">
             <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
           </select>
         </dd>
       </dl>
@@ -46,7 +52,7 @@ if($test == '404') {
       <div id="operations">
         <input type="submit" value="Create Subject" />
       </div>
-    </form>
+    </form><!-- Form end -->
 
   </div>
 

@@ -14,7 +14,7 @@
 <div id="content">
     <h1><?php echo $page_title; ?></h1>
     <div class="actions">
-        <a href="" class="action">Create New Page</a>
+        <a href="<?php echo url_for('staff/pages/new.php'); ?>" class="action">Create New Page</a>
     </div>
     <table class="list">
             <tbody><tr>
@@ -33,7 +33,7 @@
                     <td><?php echo $page['visible'] == '1' ? 'true' : 'false';?></td>
                     <td><?php echo h($page['name']);?></td>
                     <td><a class="action " href="<?php echo url_for('staff/pages/show.php?id=' . h(u($page['id']))); ?>">View</a></td>
-                    <td><a class="action " href="">Edit</a></td>
+                    <td><a class="action " href="<?php echo url_for('staff/pages/edit.php?id=' . h(u($page['id']))); ?>">Edit</a></td>
                     <td><a class="action " href="">Delete</a></td>
             </tr>
             <?php } ?>
